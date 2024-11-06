@@ -40,9 +40,9 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/kripanshu-singh/Challenge-12-Password-Generator"
+        "url": "https://github.com/kripanshu-singh/generatePassword"
     },
     "bugs": {
-        "url": "https://github.com/kripanshu-singh/Challenge-12-Password-Generator/issues"
+        "url": "https://github.com/kripanshu-singh/generatePassword/issues"
     }
 }
