@@ -7,7 +7,10 @@ A customizable password generator function written in JavaScript. It allows user
 Install the package via npm:
 
 ```bash
-npm install your-package-name
+npm install @kripanshu-singh/generatepassword
+```
+```bash
+yarn add @kripanshu-singh/generatepassword
 ```
 
 ## Usage
@@ -15,7 +18,7 @@ npm install your-package-name
 Import the `generatePassword` function into your project:
 
 ```javascript
-import generatePassword from 'your-package-name';
+import generatePassword from '@kripanshu-singh/generatepassword';
 ```
 
 ### Function Signature
