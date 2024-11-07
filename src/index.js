@@ -27,7 +27,9 @@ const generatePassword = ({
 }) => {
     const wordLength = inputWord.length;
     const length = passwordLength - wordLength;
-    let word = inputWord.replace(/\s+/g, "");
+    let word = inputWord.replace(/\s+/g, () =>
+        Math.random() < 0.5 ? "-" : "_"
+    );
     let password = "";
     let charSet = "QWERTYUIOPLKJHGFDSAZXCVBNMqwertyuioplkjhgfdsazxcvbnm";
 
